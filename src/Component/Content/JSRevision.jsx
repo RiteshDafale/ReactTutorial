@@ -2,7 +2,6 @@ import React from "react";
 import forEach from "../Images/forEachFunction.png";
 import Map from "../Images/mapFunction.png";
 import filter from "../Images/filterFunction.png";
-
 function JSRevision() {
   return (
     <div>
@@ -113,9 +112,7 @@ function JSRevision() {
                 />
                   <p className="m-0">Filter Loop</p>
             </div>
-          </div>
-
-          
+          </div>         
         </div>
       </div>
     </div>

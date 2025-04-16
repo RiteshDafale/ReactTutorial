@@ -12,18 +12,18 @@ function CreatApp() {
           <ul class="list-group">
             <p className="m-0 text-start" style={{ fontSize: "14px" }}>
               To install Any library of JS, we use{" "}
-              <span className="text-info">package managers</span>. These package
+              <span className="text-danger">package managers</span>. These package
               managers are used to install/uninstall/update the packages.
             </p>
             <p
               className="text-start"
               style={{ fontSize: "14px", marginTop: "12px" }}
             >
-              <span className="text-info">
+              <span className="text-danger">
                 npm is the popular package manager
               </span>
               . To have npm, you need to download and install{" "}
-              <span className="text-info">node js</span>
+              <span className="text-danger">node js</span>
             </p>
             <li
               class="list-group-item text-start"
@@ -49,12 +49,12 @@ function CreatApp() {
 
           <p className="mt-3 text-start">
             our need to have a code editor,
-            <span className=" text-info">
+            <span className=" text-danger">
               {" "}
               we prefer in this course vscode{" "}
             </span>
             for nice folder,
-            <span className="text-info">
+            <span className="text-danger">
               {" "}
               install "material icon theme" by pkief in vscode{" "}
             </span>
@@ -62,7 +62,7 @@ function CreatApp() {
 
           <p className="mt-3 text-start ">
             for shortcuts,
-            <span className=" text-info">
+            <span className=" text-danger">
               {" "}
               install "Es7 react/redux...." by rodrigovallades
             </span>
@@ -70,17 +70,17 @@ function CreatApp() {
 
           <p className="text-start">
             basic settings: goto file and click{" "}
-            <span className=" text-info"> autosave </span>option
+            <span className=" text-danger"> autosave </span>option
           </p>
 
           <p className="text-start">
             To create a React app using Vite, run the command{" "}
-            <spam className="text-info hovercmd ">npm create vite@latest</spam>{" "}
+            <spam className="text-danger hovercmd ">npm create vite@latest</spam>{" "}
             in VScode Terminal
           </p>
 
           <p className="text-start text-decoration-underline">
-            <spam class="text-info">vite is a template generator</spam> which
+            <spam class="text-danger">vite is a template generator</spam> which
             will create template code for different JS frameworks/libraries
           </p>
 
@@ -96,7 +96,7 @@ function CreatApp() {
           <p className="text-start m-0">
             After the command, give project name, package name and select react
           </p>
-          <p className="text-start m-0 text-info">
+          <p className="text-start m-0 text-danger">
              cd folderName <br />
             npm install <br />
              npm run dev{" "}
@@ -113,7 +113,7 @@ function CreatApp() {
             ></img>
           </div>
 
-          <p className="text-start mt-2">it will run react app in <span className="text-info">localhost:5173</span>,<br/> To change the default code, go to src then App.jsx and write HTML code between return . </p>
+          <p className="text-start mt-2">it will run react app in <span className="text-danger">localhost:5173</span>,<br/> To change the default code, go to src then App.jsx and write HTML code between return . </p>
         </div>
       </div>
     </div>

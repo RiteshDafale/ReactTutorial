@@ -1,0 +1,19 @@
+.activeList:hover{
+  background-color: blue;
+}
+
+/* .activeList:active{
+    background-color: blue;
+    color:black;
+} */
+.activeList:visited{
+    background-color: blue;
+    color:black;
+}
+/* .bg-color{
+    background-color: red;
+} */
+
+#para{
+    background-color: blue;
+}

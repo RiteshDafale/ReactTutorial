@@ -1,34 +1,35 @@
 import React, { useState } from "react";
 import Content from "./Content/Content";
-
+import '../Component/first.css';
 function First() {
   const [active, setactive] = useState("Introduction");
   return (
     <div>
-          <h5 className="mt-1 mb-2 text-white text-decoration-underline">Welcome to all for ReactJS Tutorial </h5>
+    <h5 className="mt-1 mb-2 text-white text-decoration-underline">Welcome to all for ReactJS Tutorial </h5>
       <div className="container-fluid">
-        <div className="container-fluid row border " style={{color:"#5EEAD4"}}>
+        <div className="container-fluid row border  " style={{color:"#ffffff"}}>
           <div className="col  ">
             <div className="container">
-              <p class="border" role="button"
+              <p class="border activeList" role="button" id=""
                 onClick={() => {
-                  // alert("clicked")
+                  // document.getElementById("para").id="para";
                   setactive(" React content");
                 }} >
                 React content
               </p>
               <p
-                class="border"
+                class="border activeList"
                 role="button"
                 onClick={() => {
                   // alert("clicked")
+                    // document.getElementById("para").id="para";
                   setactive("introduction");
                 }}
               >
                 React introduction
               </p>
               <p
-                class="border"
+                class="border activeList"
                 role="button"
                 onClick={() => {
                   setactive("JavaScript Rivision");
@@ -37,7 +38,7 @@ function First() {
                 JavaScript Rivision
               </p>
               <p
-                class="border"
+                class="border activeList"
                 role="button"
                 onClick={() => {
                   setactive("createApp");
@@ -49,7 +50,7 @@ function First() {
               <p class="border">Lorem, ipsum.</p>
             </div>
           </div>
-          <div className="col-9 " style={{color:"#ffffff", backgroundColor:"#2C2C2C"}}>
+          <div className="col-9 " style={{color:"black", backgroundColor:"#E0FFFF"}}>
             <Content active={active} />
           </div>
         </div>
