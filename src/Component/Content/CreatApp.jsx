@@ -97,9 +97,9 @@ function CreatApp() {
             After the command, give project name, package name and select react
           </p>
           <p className="text-start m-0 text-info">
-            --> cd folderName <br />
-            --> npm install <br />
-            --> npm run dev{" "}
+             cd folderName <br />
+            npm install <br />
+             npm run dev{" "}
           </p>
 
           <p className="text-start my-3">Folder Structure </p>
@@ -113,7 +113,7 @@ function CreatApp() {
             ></img>
           </div>
 
-          <p className="text-start mt-2">it will run react app in <span className="text-info">localhost:5173</span>,<br/> To change the default code, go to src-->App.jsx and write HTML code between return . </p>
+          <p className="text-start mt-2">it will run react app in <span className="text-info">localhost:5173</span>,<br/> To change the default code, go to src then App.jsx and write HTML code between return . </p>
         </div>
       </div>
     </div>
