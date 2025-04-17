@@ -17,5 +17,27 @@
 } */
 
 #para{
-    background-color: blue;
+    /* background-color: blue; */
+}
+
+@media only screen and (max-width: 600px) {
+.mainCont{
+    /* background-color: red !important; */
+    width: 100%;
+    
+}
+.subCont{
+    /* background-color: white !important; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.container-fluid{
+    -bs-gutter-x:0  !important;
+
+}
+.secondcol{
+    width: 100%;
+}
+
 }

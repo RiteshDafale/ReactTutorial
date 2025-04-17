@@ -4,13 +4,13 @@ import '../Component/first.css';
 function First() {
   const [active, setactive] = useState("Introduction");
   return (
-    <div>
+    <div className="bg-primary">
     <h5 className="mt-1 mb-2 text-white text-decoration-underline">Welcome to all for ReactJS Tutorial </h5>
-      <div className="container-fluid">
-        <div className="container-fluid row border  " style={{color:"#ffffff"}}>
-          <div className="col  ">
-            <div className="container">
-              <p className="border activeList" role="button" id=""
+      <div className="container-fluid mainCont w-100">
+        <div className="container-fluid row border subCont w-100 px-0  " style={{color:"#ffffff"}}>
+          <div className="container-fluid col firstcol  ">
+            <div className="container-fluid ">
+              <p className="border activeList " role="button" id=""
                 onClick={() => {
                   // document.getElementById("para").id="para";
                   setactive(" React content");
@@ -48,7 +48,7 @@ function First() {
               </p>
             </div>
           </div>
-          <div className="col-9 " style={{color:"black", backgroundColor:"#E0FFFF"}}>
+          <div className="col-9 secondcol " style={{color:"black", backgroundColor:"#E0FFFF"}}>
             <Content active={active} />
           </div>
         </div>
