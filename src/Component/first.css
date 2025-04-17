@@ -1,5 +1,6 @@
 .activeList:hover{
-  background-color: blue;
+  background-color: #E0FFFF;
+  color:black;
 }
 
 /* .activeList:active{
@@ -7,7 +8,8 @@
     color:black;
 } */
 .activeList:visited{
-    background-color: blue;
+    background-color: #E0FFFF;
+    color:black;
     color:black;
 }
 /* .bg-color{

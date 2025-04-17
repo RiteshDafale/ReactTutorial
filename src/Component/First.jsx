@@ -46,8 +46,6 @@ function First() {
               >
                 How to create React App
               </p>
-              <p className="border">Lorem, ipsum.</p>
-              <p className="border">Lorem, ipsum.</p>
             </div>
           </div>
           <div className="col-9 " style={{color:"black", backgroundColor:"#E0FFFF"}}>
