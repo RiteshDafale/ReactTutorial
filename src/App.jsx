@@ -8,12 +8,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div>
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/ReactTutorial" element={<First />}></Route>
         </Routes>
-      </BrowserRouter> */}
-      <First />
+      </BrowserRouter>
+      {/* <First /> */}
     </div>
   );
 }
