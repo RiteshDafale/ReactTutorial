@@ -10,7 +10,7 @@ function First() {
         <div className="container-fluid row border  " style={{color:"#ffffff"}}>
           <div className="col  ">
             <div className="container">
-              <p class="border activeList" role="button" id=""
+              <p className="border activeList" role="button" id=""
                 onClick={() => {
                   // document.getElementById("para").id="para";
                   setactive(" React content");
@@ -18,7 +18,7 @@ function First() {
                 React content
               </p>
               <p
-                class="border activeList"
+                className="border activeList"
                 role="button"
                 onClick={() => {
                   // alert("clicked")
@@ -29,7 +29,7 @@ function First() {
                 React introduction
               </p>
               <p
-                class="border activeList"
+                className="border activeList"
                 role="button"
                 onClick={() => {
                   setactive("JavaScript Rivision");
@@ -38,7 +38,7 @@ function First() {
                 JavaScript Rivision
               </p>
               <p
-                class="border activeList"
+                className="border activeList"
                 role="button"
                 onClick={() => {
                   setactive("createApp");
@@ -46,8 +46,8 @@ function First() {
               >
                 How to create React App
               </p>
-              <p class="border">Lorem, ipsum.</p>
-              <p class="border">Lorem, ipsum.</p>
+              <p className="border">Lorem, ipsum.</p>
+              <p className="border">Lorem, ipsum.</p>
             </div>
           </div>
           <div className="col-9 " style={{color:"black", backgroundColor:"#E0FFFF"}}>

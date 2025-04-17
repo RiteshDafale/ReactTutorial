@@ -48,46 +48,46 @@ function Intro() {
           Angular is a framework
         </p>
         <h5 className="text-start">5. Advantages of React:</h5>
-        <ol class="list-group list-group-flush list-group-numbered">
-          <li class="list-group-item text-start" style={{ fontSize: "14px" }}>
+        <ol className="list-group list-group-flush list-group-numbered">
+          <li className="list-group-item text-start" style={{ fontSize: "14px" }}>
             {" "}
             Efficient : React uses virtual DOM to make code more efficient
           </li>
-          <li class="list-group-item text-start" style={{ fontSize: "14px" }}>
+          <li className="list-group-item text-start" style={{ fontSize: "14px" }}>
             {" "}
             components : React follows component based architecture so we can
             create simple components and reuse them multiple times
           </li>
-          <li class="list-group-item text-start" style={{ fontSize: "14px" }}>
+          <li className="list-group-item text-start" style={{ fontSize: "14px" }}>
             JSX: react uses simple format called JSX(javascript extensible) to
             make code easy to write
           </li>
-          <li class="list-group-item text-start" style={{ fontSize: "14px" }}>
+          <li className="list-group-item text-start" style={{ fontSize: "14px" }}>
             Easyness: React is relatively easy when compared with angular or
             vue.
           </li>
-          <li class="list-group-item text-start" style={{ fontSize: "14px" }}>
+          <li className="list-group-item text-start" style={{ fontSize: "14px" }}>
             large community: There are lot of developers who uses React so it
             easy to catch up the queries using the communities
           </li>
         </ol>
         <h5 className="text-start">6. Basic Setup to start react Coding</h5>
-        <a class="list-group-item list-group-item-action  list-group-item-dark text-start" role="button" 
+        <a className="list-group-item list-group-item-action  list-group-item-dark text-start" role="button" 
           onClick={()=>{
             window.document.location="https://code.visualstudio.com/download"
           }}
           >download install VS code</a>
-          <a class="list-group-item list-group-item-action  list-group-item-dark text-start my-2" role="button" 
+          <a className="list-group-item list-group-item-action  list-group-item-dark text-start my-2" role="button" 
           onClick={()=>{
             window.document.location="https://git-scm.com/downloads"
           }}
           >download & install  git</a>
-          <a class="list-group-item list-group-item-action  list-group-item-dark text-start my-2" role="button" 
+          <a className="list-group-item list-group-item-action  list-group-item-dark text-start my-2" role="button" 
           onClick={()=>{
             window.document.location="https://github.com/"
           }}
           >create an account in github</a>
-          <a class="list-group-item list-group-item-action  list-group-item-dark text-start my-2" role="button" 
+          <a className="list-group-item list-group-item-action  list-group-item-dark text-start my-2" role="button" 
           onClick={()=>{
             window.document.location="https://nodejs.org/en/download"
           }}

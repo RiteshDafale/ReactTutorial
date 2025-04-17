@@ -9,7 +9,7 @@ function CreatApp() {
       <div className="container">
         <div className="contnet">
           <h5 className="mt-2">Installation and Fireact react APP</h5>
-          <ul class="list-group">
+          <ul className="list-group">
             <p className="m-0 text-start" style={{ fontSize: "14px" }}>
               To install Any library of JS, we use{" "}
               <span className="text-danger">package managers</span>. These package
@@ -26,7 +26,7 @@ function CreatApp() {
               <span className="text-danger">node js</span>
             </p>
             <li
-              class="list-group-item text-start"
+              className="list-group-item text-start"
               title="https://nodejs.org/en/download"
               role="button"
               onClick={() => {
@@ -35,13 +35,13 @@ function CreatApp() {
             >
               goto website "https://nodejs.org/en/download"
             </li>
-            <li class="list-group-item text-start">
+            <li className="list-group-item text-start">
               download according to your OS (windows){" "}
             </li>
-            <li class="list-group-item text-start">
+            <li className="list-group-item text-start">
               Install by double tap and select "npm package manager" and "yes".
             </li>
-            <li class="list-group-item text-start">
+            <li className="list-group-item text-start">
               verify by goind to cmd, and type "node -v". it prints version of
               node if it is installed else error.
             </li>
@@ -80,7 +80,7 @@ function CreatApp() {
           </p>
 
           <p className="text-start text-decoration-underline">
-            <spam class="text-danger">vite is a template generator</spam> which
+            <spam className="text-danger">vite is a template generator</spam> which
             will create template code for different JS frameworks/libraries
           </p>
 
@@ -88,7 +88,7 @@ function CreatApp() {
             <img
               style={{ height: "50%", width: "50%" }}
               src={vitaTemplate}
-              class="img-fluid"
+              className="img-fluid"
               alt="issue while uploading"
             ></img>
           </div>
@@ -108,7 +108,7 @@ function CreatApp() {
             <img
               style={{ height: "50%", width: "50%" }}
               src={Folder}
-              class="img-fluid"
+              className="img-fluid"
               alt="issue while uploading"
             ></img>
           </div>

@@ -86,7 +86,7 @@ function JSRevision() {
               {/* <img src={forEach} alt="some issue"  /> */}
                 <img
                   src={forEach}
-                  class="figure-img img-fluid rounded"
+                  className="figure-img img-fluid rounded"
                   alt="..." role='button'
                 />
               <p className="m-0">ForEach Loop</p>
@@ -96,7 +96,7 @@ function JSRevision() {
               style={{ fontSize: "12px", padding: "5px" }} >
               <img
                   src={Map}
-                  class="figure-img img-fluid rounded"
+                  className="figure-img img-fluid rounded"
                   alt="..." role='button'
                 />
                   <p className="m-0">Map Loop</p>
@@ -107,7 +107,7 @@ function JSRevision() {
             >
                <img
                   src={filter}
-                  class="figure-img img-fluid rounded"
+                  className="figure-img img-fluid rounded"
                   alt="..."  role='button'
                 />
                   <p className="m-0">Filter Loop</p>
