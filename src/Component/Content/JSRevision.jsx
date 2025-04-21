@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import forEach from "../Images/forEachFunction.png";
 import Map from "../Images/mapFunction.png";
 import filter from "../Images/filterFunction.png";
 function JSRevision() {
+  useEffect(()=>{
+   document.title="JavaScript Revision"
+  },[])
   return (
     <div>
       <div className="container">
@@ -39,7 +42,7 @@ function JSRevision() {
               <p className="text-start ps-2">
                 // Using let <br />
                 let age = 25;
-                <br /> <del>// let age = 30; //</del> ❌<span className="text-danger"> Error: can't Redeclare</span>
+                <br /> <del>// let age = 30; //</del> ❌<span className="bg-danger text-light"> Error: can't Redeclare</span>
                 <br />   <span className="text-primary"> age = 30; // ✅ Reassignment allowed </span> <br/>console.log(age); //
                 30
               </p>

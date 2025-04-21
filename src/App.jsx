@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/ReactTutorial" element={<First />}></Route>
-          {/* <Route path="/introduction" element={<Intro/>}></Route> */}
+          <Route path="/intro" element={<Intro/>}></Route>
         </Routes>
       </BrowserRouter>
       {/* <First /> */}
