@@ -54,7 +54,7 @@ function JSRevision() {
               <p className="text-start ps-1">
                 // Using const
                 <br /> const city = "New York"; <br />
-                <del>  // city = "London"; //</del> ❌ <span className="text-danger"> Error: can't reassign </span><br />
+                <del className=""> city = "London"</del> ❌ <span className="bg-danger text-light" > Error: can't reassign </span><br />
                 console.log(city); // New York
               </p>
             </div>
